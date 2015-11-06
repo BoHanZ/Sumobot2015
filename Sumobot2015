@@ -1,3 +1,28 @@
+//global variables for pins
+const unsigned int BackIR = 2;  //back IR in
+const unsigned int BackLED = 5; //back LED out
+const unsigned int FCIR = 8;    //front centre IR in
+const unsigned int FCLED = 9;   //front centre LED out
+const unsigned int FLIR = 13;   //front left IR in
+const unsigned int FLLED = 11;  //front left LED out
+const unsigned int FRIR = 12;   //front right IR in
+const unsigned int FRLED = 10;  //front right LED out
+const unsigned int LIR = A4;    //left IR in
+const unsigned int RIR = A5;    //right IR in
+
+const unsigned int QRDFL = A0; //front left QRD in
+const unsigned int QRDFR = A1; //front right QRD in
+const unsigned int QRDBL = A2; //back left QRD in
+const unsigned int QRDBR = A3; //back right WRD in
+
+
+const unsigned int HBLSpeed = 3; //H-Bridge left motor speed set (PWM)
+const unsigned int HBLMode = 4;  //H-Bridge left motor set direction
+const unsigned int HBRSpeed = 6; //H-Bridge right motor speed set (PWM)
+const unsigned int HBRMode = 7;  //H-Bridge right motor speed set
+
+
+
 void setup() {
   pinMode(6, OUTPUT);  
   pinMode(7, OUTPUT);
